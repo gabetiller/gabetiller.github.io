@@ -1,8 +1,17 @@
-<nav class="nav">
-	<ul>
-		<li><a href="/">{{ site.title }}</a></li>
-		{% for page in site.pages %}
-		<li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-		{% endfor %}
-	</ul>
-</nav>
+<div class="row sticky-top">
+	<div class="col-6">
+			<nav class="nav">
+	    	<ul>
+	    		<li><a class="brand" href="/">Gabe Tiller</h4></li>
+	      </nav>
+	</div>
+	<div class="col-4">
+	      <nav class="nav">
+	          <li><a href="/about/">Graphic Design</a></li>
+	          <li><a class="code" href="/code/">Code</a></li>
+	          <li>
+	          <span class="ion-social-tumblr"></span></li>
+	      	</ul>
+	      </nav>
+	</div>
+</div>

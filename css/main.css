@@ -27,7 +27,7 @@ body {
 img {
 	width: 100%;
 	height: auto;
-	border-radius: 3px;
+	margin-bottom: 30px;
   vertical-align: middle;
 }
 
@@ -35,18 +35,29 @@ img {
  * The Grid
  */
 
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 650px;
-  margin-right: auto;
-  margin-left: auto;
+.container-fluid {
+  padding: 40px
+}
+.col {
+	float: left;
+	width: 50%;
+}
+
+.card {
+	border: 1px solid black;
+	margin-bottom: 20px;
+
 }
 
 /*
  * Typography
  */
-
+.code {
+	margin-left: 4rem;
+}
+.brand  {
+	font-size: 4rem;
+}
 p {
 	margin-top: 0;
 	margin-bottom: 1rem;
@@ -57,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   margin-bottom: .5rem;
   font-size: 1rem;
 }
@@ -69,7 +80,7 @@ h2 {
   font-size: 1.1rem;
 }
 a {
-	color: #7E7E7E;
+	color: #4E4E4E;
 }
 ol li,
 ul li {
@@ -87,7 +98,7 @@ hr {
 	border-top: 2px solid #E7E7E7;
 	border-bottom: none;
 	border-left: none;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 40px;
 }
 
@@ -99,7 +110,8 @@ hr {
   margin-bottom: 40px;
 }
 .nav a {
-	text-decoration: none;
+	text-decoration: underline;
+	font-size: .9rem;
 }
 .nav ul {
 	list-style: none;

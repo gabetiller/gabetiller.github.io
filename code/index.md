@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Code
 ---
 
 This is my as simple as possible base Jekyll theme.
