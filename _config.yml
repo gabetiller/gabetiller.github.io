@@ -10,3 +10,6 @@ collections:
     output: true
 
 google_analytics: "UA-100153451-2"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+ url: "http://gabetiller.github.io" # the base hostname & protocol for your site
