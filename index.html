@@ -3,11 +3,21 @@ layout: default
 ---
 
 <div class="row">
-{% for project in site.projects %}
-<div class="col-md-6">
-	<article>
-		<a href="{{ project.url }}"><img src="{{ project.image }}" /></a>
-	</article>
-</div>
-{% endfor %}
-</div>
+	{% for project in site.projects %}
+	{% if project.category == "design" %}
+	<div class="col-md-6">
+		<article>
+			<div class="borders">
+				<div class="projects">
+				<a href="{{ project.url }}">
+					<img class= "image" src="/img/{{project.featuredImage}}"></a>
+					<div class="middle">
+						<div class="text">{{project.title}}</div>
+					</div>
+					</div>
+				</div>
+			</article>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>

@@ -1,0 +1,19 @@
+---
+layout: default
+title: Code
+---
+
+{% for project in site.projects %}
+  {% if project.category == "code" %}
+<div class= "row">
+  <div class= "col-4">
+  <h3 class = "code-title">{{ project.title }}</h3>
+  </div>
+<div class = "col-8">
+  <p>{{ project.content }}</p>
+</div>
+</div>
+
+  {% endif %}
+
+{% endfor %}

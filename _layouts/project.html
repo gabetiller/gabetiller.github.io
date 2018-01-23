@@ -2,21 +2,26 @@
 layout: default
 ---
 <div class="row">
-  <div class="col-md-5">
+  <div class="col-md-6">
     <article>
-      <h1>{{ page.title }}</h1>
+      <h1 class="project-title">{{ page.title }}</h1>
     </article>
   </div>
-  <div class="col-md-7">
+  <div class="col-md-6">
     <article>
       {{ content }}
     </article>
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
-    <article>
-      <img src="{{ page.image }}" />
-    </article>
+  <div class="col">
+      <img src="{{site.baseurl}}/img/{{page.featuredImage}}">
   </div>
+</div>
+<div class="row">
+  {% for image in page.images %}
+  <div class="col-md-6 offset-md-6">
+      <img src="{{site.baseurl}}/img/{{image}}">
+  </div>
+  {% endfor %}
 </div>
