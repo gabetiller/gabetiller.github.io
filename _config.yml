@@ -1,5 +1,5 @@
 # Site settings
-title: "Gabe Tiller"
+name: Gabe Tiller
 
 # Build settings
 markdown: kramdown
