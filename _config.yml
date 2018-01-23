@@ -1,5 +1,7 @@
 # Site settings
-name: Gabe Tiller
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+ url: "http://gabetiller.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
