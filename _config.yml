@@ -1,9 +1,7 @@
 # Site settings
-
+title: Gabe Tiller
 baseurl: "" # the subpath of your site, e.g. /blog/
- url: "http://gabetiller.github.io" # the base hostname & protocol for your site
-
-# Build settings
+# url: "http://gabetiller.github.io" # the base hostname & protocol for your site
 markdown: kramdown
 permalink: pretty
 
@@ -12,6 +10,6 @@ collections:
     output: true
 
 google_analytics: "UA-100153451-2"
-
-baseurl: "" # the subpath of your site, e.g. /blog/
- url: "http://gabetiller.github.io" # the base hostname & protocol for your site
+#
+# baseurl: "" # the subpath of your site, e.g. /blog/
+#  url: "http://gabetiller.github.io" # the base hostname & protocol for your site
