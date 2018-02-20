@@ -1,3 +1,5 @@
+
+
 var canvas;
 var r, g, b;
 var stroke_weight
@@ -11,9 +13,9 @@ function setup() {
   canvas.position(0,0);
   canvas.style('z-index', '-1');
   background(255);
-  r = random(255)
-  g = random(255)
-  b = random(255)
+  // r = random(255)
+  // g = random(255)
+  // b = random(255)
 
 };
 
@@ -24,7 +26,7 @@ function draw() {
     r = random(255)
     g = random(255)
     b = random(255)
-    strokeWeight(20);
+    strokeWeight(50);
     stroke(r, g, b);
   }
 };

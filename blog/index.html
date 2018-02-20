@@ -4,8 +4,19 @@ title: Blog
 ---
 
 
-<body>
-<p>
-I plan on starting a blog some day. For now, colors.
-</p>
-</body
+<body id = "paint-brush">
+  <script>
+  $(document).ready(function() {
+    $('#paint-brush')
+      .awesomeCursor('pencil', {
+        hotspot: 'bottom left',
+        color: 'red',
+        size: 50
+      });
+   });
+
+    </script>
+<h3>
+I plan on starting a blog some day. For now, <u>doodle</u>.
+</h3>
+</body>

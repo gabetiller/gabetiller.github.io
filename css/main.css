@@ -18,7 +18,7 @@ html {
 
 body {
 	font-size: 1em;
-	font-family: Helvetica, sans-serif;
+	font-family: 'Helvetica', sans-serif;
   margin-top: 40px;
   margin-bottom: 80px;
 	margin-left: 30px;
@@ -65,6 +65,7 @@ img {
 }
 
 .text {
+	font-family: 'Helvetica', sans-serif;
   color: MediumBlue;
 	font-size: 1.7rem;
 	line-height: 2.3rem;
@@ -110,8 +111,13 @@ img {
 }
 
 p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
 	margin-top: 0;
 	margin-bottom: 1rem;
+}
+h1, h2, h3, h4, a {
+	font-family: 'Helvetica', sans-serif;
 }
 
 a {
