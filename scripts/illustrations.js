@@ -28,9 +28,3 @@ function draw() {
     stroke(r, g, b);
   }
 };
-
-$('body').awesomeCursor('paint-brush', {
-  color: 'red',
-  size: 30,
-  hotspot: [5, 25]
-});
