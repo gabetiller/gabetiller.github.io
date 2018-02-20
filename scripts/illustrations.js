@@ -30,12 +30,3 @@ function draw() {
     stroke(r, g, b);
   }
 };
-
-$(document).ready(function() {
-  $('#paint-brush')
-    .awesomeCursor('pencil', {
-      hotspot: 'bottom left',
-      color: 'red',
-      size: 50
-    });
- });
