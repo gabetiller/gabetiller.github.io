@@ -6,6 +6,20 @@ title: Blog
 
 <body id = "paint-brush">
 <h3>
-I plan on starting a blog some day. For now, <u>doodle</u>.
+   I plan on starting a blog some day. For now, doodle (<i class="fa fa-pencil"></i>).
 </h3>
+<script>
+$(document).ready(function() {
+  setTimeout(
+    function()
+    {
+      $('#paint-brush')
+        .awesomeCursor('pencil', {
+          hotspot: 'bottom left',
+          color: 'blue',
+          size: 50
+        });
+    }, 2500);
+ });
+ </script>
 </body>
