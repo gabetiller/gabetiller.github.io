@@ -1,5 +1,5 @@
 
-if (window.innerWidth >760) {
+if (window.innerWidth > 800) {
 var canvas;
 var r, g, b;
 var stroke_weight

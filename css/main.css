@@ -109,6 +109,11 @@ img {
 .about {
 	margin-left: -1rem;
 }
+@media(max-width: 768px) {
+	.about {
+		display: none;
+	}
+}
 
 p {
 	font-family: 'Roboto Mono', monospace;
@@ -149,22 +154,24 @@ a {
 	border-bottom: 1px solid red !important;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
 .code {
 	margin-left: 1.5rem;
 	}
-}
+} */
 
 .github {
 	font-size: 1.2rem;
 }
-@media (max-width:678px) {
-.social-icon {
-	opacity: 0;
-}
+
+@media (max-width:768px) {
+.social-icon  {
+	/* opacity: 0; */
+	display: none !important;
+	}
 }
 
-.social-icon{
+.social-icon {
 	float: right;
 	padding-left: 1.5rem;
 	padding-top: 1rem;
