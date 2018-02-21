@@ -112,7 +112,7 @@ img {
 
 p {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 16px;
+	font-size: 15px;
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
@@ -136,17 +136,17 @@ a {
 .nav-link {
 	letter-spacing: 2px;
 	padding-top: .8rem;
-	padding-bottom:0;
+	padding-bottom:3px;
 	padding-right: 0;
 	padding-left: 0;
 	font-size: 1.2rem;
 	color: Mediumblue;
-  border-bottom: 3px solid MediumBlue !important;
+  border-bottom: 1px solid MediumBlue !important;
 }
 
 .nav-link:hover {
 	color: red;
-	border-bottom: 3px solid red !important;
+	border-bottom: 1px solid red !important;
 }
 
 @media (max-width:768px) {

@@ -1,5 +1,5 @@
 
-
+if (window.innerWidth >760) {
 var canvas;
 var r, g, b;
 var stroke_weight
@@ -25,4 +25,5 @@ function draw() {
     strokeWeight(50);
     stroke(r, g, b);
   }
+};
 };
