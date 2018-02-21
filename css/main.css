@@ -124,30 +124,14 @@ a {
 	color: #4E4E4E;
 }
 
-
-a.brand {
-	letter-spacing: 10px;
-	line-height: 1rem;
-	/* border-bottom: 2px solid MediumBlue !important; */
-}
 .project-title {
 	font-size: 1.5rem;
 	font-weight: 600;
-
 }
 
 .code-title {
 	color:MediumBlue;
-
-
 }
-
-
-
-/*
- * Navigation
- */
-
 
 .nav-link {
 	letter-spacing: 2px;
@@ -162,11 +146,11 @@ a.brand {
 
 .nav-link:hover {
 	color: red;
-	border-bottom: 20px dashed red !important;
+	border-bottom: 3px solid red !important;
 }
 
 @media (max-width:768px) {
-.code{
+.code {
 	margin-left: 1.5rem;
 	}
 }
@@ -190,10 +174,22 @@ a.brand {
 .brand {
 	font-size: 1.2rem;
 	text-transform: uppercase;
+	font-weight: 600;
 	padding-right: 1rem;
 	color: MediumBlue;
+}
 
-
+a.brand {
+	letter-spacing: 1.2px;
+	line-height: 3rem;
+	/* border-bottom: 3px solid MediumBlue !important; */
+}
+a.brand:hover {
+	letter-spacing: 1.2px;
+	color: red;
+	line-height: 3rem;
+	text-decoration: none !important;
+	border-bottom: 3px solid red !important;
 }
 
 .icons {
