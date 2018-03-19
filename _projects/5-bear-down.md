@@ -4,7 +4,6 @@ title: Bear Down
 category: design
 featuredImage: trees-mockup copy.jpg
 images:
-  - trees-mockup copy.jpg
   - bear-down-oceans.jpg
   - bear-down-ice.jpg
   - bear-down-fire.jpg

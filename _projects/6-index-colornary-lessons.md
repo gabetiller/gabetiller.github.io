@@ -4,7 +4,6 @@ title: Colornary Lessons
 category: design
 featuredImage: colornary-lessons.jpg
 images:
-  - colornary-lessons.jpg
   - colornary-hot-dogs.jpg
   - colornary-spreads.jpg
   - colornary-donuts.jpeg
