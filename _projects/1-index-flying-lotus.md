@@ -4,10 +4,9 @@ title: Flying Lotus
 category: design
 featuredImage: flying-lotus-vinyl.jpg
 images:
-  - flying-lotus-website.jpg
   - flying-lotus.jpg
   - flying-lotus-shirt.jpg  
-  - flying-lotus-raw.jpg
+  - flying-lotus-website.jpg
 ---
 Branding, Posters, Web  
 Spring, 2016
