@@ -178,6 +178,10 @@ a.brand:hover {
 	margin-right: 2.4rem;
 }
 
+div.col-md-6.main-photo {
+	padding-bottom: 30px;
+}
+
 /* PHONES */
 
 @media(max-width: 768px) {
@@ -208,7 +212,7 @@ a.brand:hover {
 
 @media (max-width:768px) {
 	.container-fluid {
-		padding: 0px;
+		padding: 30px;
 	}
 }
 /* @media (max-width:768px) {
