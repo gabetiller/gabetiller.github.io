@@ -2,7 +2,7 @@
 layout: project
 title: Bear Down
 category: design
-featuredImage: trees-mockup copy.jpg
+featuredImage: trees-mockup-copy.jpg
 images:
   - bear-down-oceans.jpg
   - bear-down-ice.jpg
