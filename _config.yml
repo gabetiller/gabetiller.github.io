@@ -1,5 +1,6 @@
 # Site settings
 title: Gabe Tiller
+description: Gabe Tiller is a designer based in Raleigh, NC. He turns language into objects by way of digital and printed matter.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://gabetiller.github.io" # the base hostname & protocol for your site
 markdown: kramdown
@@ -10,6 +11,9 @@ collections:
     output: true
 
 google_analytics: "UA-100153451-2"
+
+plugins:
+  - jekyll-seo-tag
 #
 # baseurl: "" # the subpath of your site, e.g. /blog/
 #  url: "http://gabetiller.github.io" # the base hostname & protocol for your site
