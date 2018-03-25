@@ -1,11 +1,11 @@
 ---
 layout: project
-title: Bagwell & Bagwell 
+title: Bagwell & Bagwell
 category: design
 featuredImage: bagwell-site.jpg
 images:
-  - bagwell_stationery_mockup.jpg
   - Bagwell+Style+Guide.jpg
+  - bagwell_stationery_mockup.jpg
   - Bagwell+Final+Logos-02.jpg
 
 ---
