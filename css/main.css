@@ -14,7 +14,6 @@ html {
 body {
 	background-color: transparent;
 	margin-top: 40px;
-	margin-bottom: 80px;
 	z-index: -1;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -220,3 +219,24 @@ div.col-md-6.main-photo {
 		display: none !important;
 	}
 } */
+footer.my-footer {
+  flex-shrink: 0;
+  margin: 0;
+  padding-left: 35px !important;
+	padding-bottom: 20px;
+	margin: 0 !important;
+  border: 0;
+  v-index: 2
+  // box-shadow: -3px -3px 10px 0px #263238;
+}
+
+footer.my-footer.li {
+ letter-spacing: 0;
+ font-size: 8;
+}
+
+body#paintbrush {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}

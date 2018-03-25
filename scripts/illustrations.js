@@ -8,7 +8,7 @@ function windowResized() {
   resizeCanvas(windowWidth, window.innerHeight)
 }
 function setup() {
-  canvas = createCanvas(windowWidth, window.innerHeight);
+  canvas = createCanvas(windowWidth, window.innerHeight - 30);
 
   canvas.position(0,0);
   canvas.style('z-index', '-1');

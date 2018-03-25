@@ -7,6 +7,9 @@ images:
   - colornary-hot-dogs.jpg
   - colornary-spreads.jpg
   - colornary-donuts.jpeg
+  - chinese-food.jpg
+  - monsters.jpg
+  - orange-juice.jpg 
 
 ---
 

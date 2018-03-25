@@ -2,10 +2,9 @@
 layout: project
 title: Little Things
 category: design
-featuredImage: little-things-cover.jpg
+featuredImage: little-things.gif
 images:
-  - little things cover.jpg
-  - little-things.gif
+  - little-things-cover.jpg
 ---
 
 Book cover accompanied by a promotional poster for “Little Things”, a mystery novel.
