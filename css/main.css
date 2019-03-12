@@ -34,7 +34,7 @@ img {
 }
 
 .borders:hover {
-	outline: 10px solid #004D40;
+	outline: 10px solid blue;
 	opacity: 1;
 }
 
@@ -66,7 +66,7 @@ img {
 
 .text {
 	font-family: 'Helvetica', sans-serif;
-	color: #004D40;
+	color: blue;
 	font-size: 1.7rem;
 	line-height: 2.3rem;
 	text-align: center;
@@ -100,7 +100,7 @@ a {
 .project-title {
 	font-size: 1.3rem;
 	font-weight: 600;
-	color: #004D40
+	color: #blue
 }
 
 article {
@@ -119,18 +119,22 @@ h4 {
 }
 
 .code-title {
-	color:#004D40;
+	color:blue;
 }
 
 .nav-link {
 	letter-spacing: 1px;
-	padding-top: 1rem;
+	/*padding-top: 1rem;*/
 	padding-bottom: 0px;
 	padding-right: 0;
 	padding-left: 0rem;
-	font-size: 1rem;
-	color: #004D40;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: blue;
 	margin: 0;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-iteration-count: 1;
 }
 
 div.col-1 {
@@ -139,7 +143,7 @@ div.col-1 {
 }
 
 .nav-link:hover {
-	color: #00695C;
+	color: dark-blue;
 }
 
 .github {
@@ -150,25 +154,26 @@ div.col-1 {
 	float: right;
 	padding-left: 1.5rem;
 	padding-top: 1rem;
-	color: #004D40;
+	color: blue;
 }
 
 .brand {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
+	font-weight: 500;
 	text-transform: uppercase;
 	padding-right: 1rem;
-	color: #004D40;
+	color: blue;
 }
 
 a.brand {
-	letter-spacing: 1.2px;
+
 	padding-left: 2rem;
+	padding-top: .8rem;
 	font-weight: 900;
 }
 
 a.brand:hover {
-	letter-spacing: 1.2px;
-	color: #00695C;
+	color: dark-blue;
 	/* line-height: 3rem; */
 	text-decoration: none ;
 }
