@@ -9,4 +9,4 @@ Techtannica is a Rails based application that allows users to create public or p
 
 This application deepened my knowledge of user authentication (with devise gem) and authorization (with the pundit gem). I also gained a stronger understanding of Active Record and data manipulation through querying.
 
-<a href="https://github.com/gabetiller/techtannica/blob/master/README.md" style= "color: blue">view code</a>
+<a href="https://github.com/gabetiller/techtannica/blob/master/README.md" style= "color: black">view code</a>

@@ -11,4 +11,4 @@ scripting, JQuery, expanded my ability to design responsive web pages and dynami
 
 Bloc Jams culminated and pushed my problem solving and coding experience thus far while giving me a greater understanding of how different pieces of a web application fit together.
 
-<a href="https://blockjams-gabe-tiller.netlify.com" style= "color: blue">view site</a>
+<a href="https://blockjams-gabe-tiller.netlify.com" style= "color: black">view site</a>

@@ -13,4 +13,4 @@ Before a user is allowed to enter the website, they are required to create a use
 
 This project pushed my problem solving skills and greatly expanded my conceptual and technical understanding of AngularJS and Javascript in general. It also was a nice introduction to the use of Firebase and AngelFire.
 
-<a href="https://diplomat-tilling-72250.netlify.com/" style= "color: blue">View Site</a>
+<a href="https://diplomat-tilling-72250.netlify.com/" style= "color: black">View Site</a>
