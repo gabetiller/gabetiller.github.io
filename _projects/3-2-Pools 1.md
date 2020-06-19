@@ -4,6 +4,6 @@ title: Pools
 category: design
 featuredImage: pools-1.jpg
 images:
-  - pools-1.jpg
+  
 
 ---
